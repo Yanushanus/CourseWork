@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #4E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coursework.MembershipPage">
+    <children>
+        <BorderPane prefHeight="243.0" prefWidth="800.0" style="-fx-background-color: #8df567;">
+            <top>
+                <Label text="Club assistant" textFill="#bc2323" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Times New Roman" size="53.0" />
+                    </font>
+                </Label>
+            </top>
+            <center>
+                <Label fx:id="userInfoLabel" textFill="RED" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Label>
+            </center>
+            <bottom>
+                <Label text="I am here to help you with making your membership" textFill="#f70731" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Times New Roman" size="26.0" />
+                    </font>
+                </Label>
+            </bottom>
+         <right>
+
+         </right>
+        </BorderPane>
+      <Button fx:id="gymButton" layoutX="140.0" layoutY="328.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="82.0" style="-fx-background-color: #8df702;" text="Gym">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="boxButton" layoutX="406.0" layoutY="328.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="89.0" style="-fx-background-color: #8df702;" text="Box">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="poolButton" layoutX="318.0" layoutY="418.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="123.0" style="-fx-background-color: #8df702;" text="Swimming Pool">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="massageButton" layoutX="533.0" layoutY="328.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="89.0" style="-fx-background-color: #8df702;" text="Massage">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="tennisButton" layoutX="254.0" layoutY="328.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="104.0" style="-fx-background-color: #8df702;" text="Tennis court">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="saunaButton" layoutX="198.0" layoutY="418.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="89.0" style="-fx-background-color: #8df702;" text="Sauna">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="yogaButton" layoutX="488.0" layoutY="418.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="89.0" style="-fx-background-color: #8df702;" text="Yoga">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="171.0" layoutY="268.0" prefHeight="32.0" prefWidth="437.0" text="Click on buttons with clubs you want to offer" textFill="#f80000">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="infoButton" layoutX="34.0" layoutY="516.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="212.0" style="-fx-background-color: #f702ef;" text="Get info about offer">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="submitButton" layoutX="539.0" layoutY="516.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="212.0" style="-fx-background-color: #f702ef;" text="Submit offer">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="342.0" layoutY="516.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="104.0" style="-fx-background-color: #f702ef;" text="Exit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

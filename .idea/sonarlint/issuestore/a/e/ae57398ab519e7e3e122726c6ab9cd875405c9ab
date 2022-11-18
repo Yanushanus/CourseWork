@@ -1,0 +1,9 @@
+
+
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(ıƒò®ıÿÿÿÿ8°ûë£À0
+B
+java:S1602",Remove useless curly braces around statement(¼ğÒ—
+X
+java:S1128";Remove this unused import 'javafx.scene.control.TextField'.(¨¢¤¶8ë£¬ĞÀ0
+T
+java:S1128"2Remove this unused import 'userClasses.clubs.Gym'.(Ø¿Èüÿÿÿÿ8ì£¬ĞÀ0

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #4E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coursework.ClubInfoPage">
+    <children>
+        <BorderPane prefHeight="243.0" prefWidth="800.0" style="-fx-background-color: #8df567;">
+            <top>
+                <Label text="Club assistant" textFill="#bc2323" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Times New Roman" size="53.0" />
+                    </font>
+                </Label>
+            </top>
+            <right>
+                <Button fx:id="backButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="140.0" style="-fx-background-color: #ff007b;" text="Go back" textFill="#2600ff" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            </right>
+         <bottom>
+                <Label text="I am here to help you with making your membership" textFill="#f70731" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="Times New Roman" size="26.0" />
+                    </font>
+                </Label>
+         </bottom>
+        </BorderPane>
+        <Label layoutX="188.0" layoutY="255.0" text="Press on buttons to get information about clubs" textFill="#00e5ff">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="gymButton" layoutX="28.0" layoutY="315.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="120.0" style="-fx-background-color: #f80;" text="Gym">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+        <Button fx:id="tennisButton" layoutX="174.0" layoutY="315.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="174.0" style="-fx-background-color: #f80;" text="Tennis court">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+        <Button fx:id="poolButton" layoutX="386.0" layoutY="315.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="185.0" style="-fx-background-color: #f80;" text="Swimming pool">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+        <Button fx:id="yogaButton" layoutX="599.0" layoutY="315.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="156.0" style="-fx-background-color: #f80;" text="Yoga club">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+        <Button fx:id="boxButton" layoutX="88.0" layoutY="401.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="156.0" style="-fx-background-color: #f80;" text="Box section">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+        <Button fx:id="massageButton" layoutX="286.0" layoutY="401.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="191.0" style="-fx-background-color: #f80;" text="Massage section">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+        <Button fx:id="saunaButton" layoutX="530.0" layoutY="401.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="139.0" style="-fx-background-color: #f80;" text="Sauna">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+      <Label fx:id="textLabel" layoutX="174.0" layoutY="494.0" prefHeight="68.0" prefWidth="465.0">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
